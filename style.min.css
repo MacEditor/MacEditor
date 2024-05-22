@@ -1076,8 +1076,8 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 .header-global-list .btn-global-access {font-size:14px; line-height:16px; font-weight:500; color:#222;}
 .header-global-list .btn-global-access .global-access-stats {display:inline-block; height:16px; font-size:11px; line-height:16px; margin-left:5px; vertical-align:top; color:#222; font-weight:500; padding:0 5px; border-radius:8px; background:#fff; border:1px solid #222}
 .header-global-list .btn-global-access .global-access-stats.on {color:#fff; background:#4b4dff; border:1px solid #4b4dff;}
-.header-global-list .btn-global-login {display:block; width:19px; height:19px; font-size:0; background:url(../images/icon/header-login-ico@2x.png) left top no-repeat; background-size:100% 100%;}
-.header-global-list .btn-global-community {display:block; width:19px; height:19px; font-size:0; background:url(../images/icon/header-community-ico@2x.png) left top no-repeat; background-size:100% 100%; cursor:pointer;}
+.header-global-list .btn-global-login {display:block; width:19px; height:19px; font-size:0; background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/header-login-ico@2x.png) left top no-repeat; background-size:100% 100%;}
+.header-global-list .btn-global-community {display:block; width:19px; height:19px; font-size:0; background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/header-community-ico@2x.png) left top no-repeat; background-size:100% 100%; cursor:pointer;}
 .header-global-list .btn-global-eng {display:block; width:19px; height:19px; font-size:0; background:url(../images/icon/header-global-ico@2x.png) left top no-repeat; background-size:100% 100%;}
 .header-global-list .btn-global-kor {display:block; width:19px; height:19px; font-size:0; background:url(../images/icon/header-korea-ico@2x.png) left top no-repeat; background-size:100% 100%;}
 .header-global-list .btn-global-my {font-size:11px; line-height:18px; width:36px; height:20px; text-align:center; border:1px solid #222; border-radius:10px; cursor:pointer;}
@@ -1108,19 +1108,18 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 /* 헤더 > GNB */
 .header-gnb-wrap {position:relative;}
 .header-gnb-wrap:before {content:''; position:absolute;top:0;left:0;display:block;width:100%;height:51px; background:#f6f7fa; border-top:1px solid #cfcfda; border-bottom:1px solid #cfcfda; z-index:0;}
-.header-gnb-wrap .btn-all-menu {position:absolute;top:0;right:0;display:block;font-size:0;width:51px; height:51px; border-left:1px solid #cfcfda; border-right:1px solid #cfcfda; background:url(../images/icon/hamburger-ico@2x.png) center center no-repeat; background-size:17px auto; z-index:10;}
+.header-gnb-wrap .btn-all-menu {position:absolute;top:0;right:0;display:block;font-size:0;width:51px; height:51px; border-left:1px solid #cfcfda; border-right:1px solid #cfcfda; background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/hamburger-ico@2x.png) center center no-repeat; background-size:17px auto; z-index:10;}
 
 .gnb-data {position:relative;}
-.gnb-data-inner {display:flex; align-items:center;}
+.gnb-data-inner {display:flex; align-items:center; justify-content:center;}
 .sticky-logo {flex:0 0 auto; position:relative; width:31px;height:30px; margin-right:16px; display:none; z-index:50;}
 .sticky-logo > a {position:absolute;top:0;left:0;display:block;width:100%;height:100%;background:url(../images/common/logo_m.png) left top no-repeat; background-size:100% 100%; z-index:5;}
 .sticky-title {flex:0 0 auto; display:none; position:relative;  z-index:50;}
 .sticky-title > a {display:block; width:95px; font-size:16px; line-height:25px; color:#222;font-weight:700;}
 .sticky-title > a:empty {width:64px;}
-.header-gnb-wrap .main-nav-list {display:flex; align-items:flex-start;}
+.header-gnb-wrap .main-nav-list {display:flex; align-items:flex-start; justify-content: center;}
 .header-gnb-wrap .menu-item-has-children {box-sizing:border-box; padding:0 58px;}
 .header-gnb-wrap .menu-item-has-children > a {position:relative; display:block; font-size:16px; color:#222; font-weight:500; line-height:51px; height:51px; transition:color 0.35s ease;}
-.header-gnb-wrap .menu-item-has-children:first-child {padding-left:0;}
 .header-gnb-wrap .menu-item-has-children:hover > a,
 .header-gnb-wrap .menu-item-has-children.current-menu-item > a{color:#4b4dff; font-weight:700;}
 /*
@@ -2171,7 +2170,7 @@ table.reserve-table > tbody > tr > td {padding:10px; font-size:14px; line-height
 	.gnb-data {position:relative;}
 	.gnb-data-inner {}
 	.gnb-data-inner:after {content:''; position:absolute; top:1px; right:56px; display:block; width:20px; height:43px; background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); z-index:150;}
-	.header-gnb-wrap .main-nav-list {display:flex; margin-right:57px; overflow-x:auto;overflow-y:hidden;}
+	.header-gnb-wrap .main-nav-list {display:flex; overflow-x:auto;overflow-y:hidden;}
 	.header-gnb-wrap .main-nav-list:before {content:''; flex:0 0 20px; width:20px;}
 	.header-gnb-wrap .main-nav-list:after {content:''; flex:0 0 20px; width:20px;}
 	.header-gnb-wrap .menu-item-has-children {padding:0;}
