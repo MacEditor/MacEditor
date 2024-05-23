@@ -1040,7 +1040,7 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 .header-contents {position:relative; z-index:20; background-color:#fff;}
 .header-contents .inner {padding:20px 0;}
 .header-contents h1 {position:absolute; left:0; display:block;width:208px;height:68px; z-index:5;}
-.header-contents h1 a {position:absolute;top:0;left:0;display:block;width:100%;height:100%;font-size:0;background:url(top_logo.png) left top no-repeat; background-size:100% auto;}
+.header-contents h1 a {position:absolute;top:0;left:0;display:block;width:100%;height:100%;font-size:0;background:url(../img/top_logo.png) left top no-repeat; background-size:100% auto;}
 .locale-en_US .header-contents h1 a {position:absolute;top:0;left:0;display:block;width:100%;height:100%;font-size:0;background:url(../images/common/logo-en.png) left top no-repeat; background-size:100% auto;}
 .header-contents h1 a.blog-7 {position:absolute;top:0;left:0;display:block;width:260px;height:100%;font-size:0;background:url(../images/common/logo-medlib.png) left top no-repeat; background-size:100% auto;}
 .header-contents h1 a.blog-6 {position:absolute;top:0;left:0;display:block;width:232px;height:100%;font-size:0;background:url(../images/common/logo-lawlib.png) left top no-repeat; background-size:100% auto;}
@@ -1048,7 +1048,7 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 .header-contents h1 a.blog-12 {position:absolute;top:0;left:0;display:block;width:260px;height:100%;font-size:0;background:url(../images/common/logo-nanolib.png) left top no-repeat; background-size:100% auto;}
 .header-search-wrap {position:relative; max-width:566px; margin:0 auto;}
 .header-search-wrap .search-input {display:flex; align-items:center; border:2px solid #222; border-bottom:none; height:43px; border-radius: 6px 6px 0 0;}
-.header-search-wrap .search-input .btn-header-search {flex:0 0 auto; font-size:0; width:43px; height:41px; background:#222 url(../images/icon/header-search-ico@2x.png) center center no-repeat; background-size:20px auto;}
+.header-search-wrap .search-input .btn-header-search {flex:0 0 auto; font-size:0; width:43px; height:41px; background:#222 url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/header-search-ico@2x.png) center center no-repeat; background-size:20px auto;}
 .header-search-wrap .search-input > input {flex:1; display:block; width:100%; height:41px; padding:0 15px; font-size:15px; border:none; outline:none; background:#fff; border-radius: 6px 6px 0 0;}
 .header-search-wrap .search-sort-input {display:none;position:relative; flex:0 0 auto; border-right:2px solid #222; height:100%;}
 .header-search-wrap .search-sort-input select {position:relative;-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:85px; height:100%; border:none; background:none; outline:none; border-radius:0; font-size:12px; padding:0 12px;z-index:2;}
@@ -1127,7 +1127,7 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 */
 .header-gnb-wrap .menu-item-has-children:nth-child(7),
 .header-gnb-wrap .menu-item-has-children:nth-child(8) {display:none;}
-.header-gnb-wrap .sub-menu {position:absolute; top:100%; width:100%; left:0; display:flex; height:50px; z-index:2; visibility:hidden; opacity:0; transition:visibility 0s 0s ease, opacity 0.25s 0s ease;}
+.header-gnb-wrap .sub-menu {position:absolute; top:100%; width:100%; left:0; display:flex; height:50px; z-index:2; visibility:hidden; opacity:0; transition:visibility 0s 0s ease, opacity 0.25s 0s ease; justify-content: center;}
 .header-gnb-wrap .sub-menu:before {content:''; position:absolute; top:0; left:50%; display:block; width:100vw; height:50px; margin-left:-50vw; background:#fff; border-bottom:1px solid #cfcfda; box-sizing:border-box;z-index:0;}
 .header-gnb-wrap .sub-menu > .menu-item {z-index:2;padding:0 15px;}
 .header-gnb-wrap .sub-menu > .menu-item + .menu-item {}
@@ -1177,7 +1177,7 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 .sitemap-menu-wrap .btn-sitemap-close {position:absolute; top:85px;right:0; font-size:30px; width:29px; height:25px; line-height:25px;}
 .sitemap-menu-list {margin-top:60px; text-align:left;}
 .sitemap-menu-list .main-nav-list {display:flex; margin:-20px -15px; flex-wrap:wrap;}
-.sitemap-menu-list .main-nav-list > li {width:25%; padding:20px 15px;}
+.sitemap-menu-list .main-nav-list > li {width:33.33333%; padding:20px 15px;}
 .sitemap-menu-list .main-nav-list > li > a {display:flex; align-items:center; justify-content: center; width:100%; height:60px; font-size:20px; line-height:25px; color:#222; font-weight:700; padding:0 10px; background:#f3f5f9; border-radius:6px;}
 .sitemap-menu-list .sub-menu {margin-top:14px;}
 .sitemap-menu-list .sub-menu > li {line-height:1;}
@@ -1215,7 +1215,7 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 .footer-menu-list .footer-menu-list-cell + .footer-menu-list-cell {margin-top:0;}
 .footer-menu-list .footer-menu-list-cell > a {display:block; padding:5px 0; font-size:14px; line-height:20px; color:#555;}
 .footer-menu-list .footer-menu-list-cell > a:hover {text-decoration:underline;}
-.footer-logo {font-size:0; width:208px; height:34px; background:url(bot_logo.png) left top no-repeat; background-size:208px auto;}
+.footer-logo {font-size:0; width:208px; height:34px; background:url(../img/bot_logo.png) left top no-repeat; background-size:208px auto;}
 .locale-en_US .footer-logo {font-size:0; width:160px; height:35px; background:url(../images/common/logo-en.png) left top no-repeat; background-size:160px auto;}
 .footer-logo-medlib {font-size:0; width:260px; height:34px; background:url(../images/common/logo-medlib.png) left top no-repeat; background-size:260px auto;}
 .footer-logo-lawlib {font-size:0; width:232px; height:34px; background:url(../images/common/logo-lawlib.png) left top no-repeat; background-size:232px auto;}
@@ -2146,7 +2146,7 @@ table.reserve-table > tbody > tr > td {padding:10px; font-size:14px; line-height
 	.header-contents {background-color:#fff;}
 	.header-contents .inner {padding:16px 0;}
 	.header-contents h1 {top:31px; width:31px;height:30px;}
-	.header-contents h1 a, .header-contents h1 a.blog-7 {background:url(../images/common/logo_m.png) left top no-repeat; width:100%; background-size:100% auto;}
+	.header-contents h1 a, .header-contents h1 a.blog-7 {background:url(../img/top_logo_m.png) left top no-repeat; width:100%; background-size:100% auto;}
 	.header-search-wrap {max-width:100%; padding:0 40px 0 42px;}
 	.header-search-wrap .search-input {position:relative; padding-right:32px;height:34px;}
 	.header-search-wrap .search-input .btn-header-search {position:absolute;top:0;right:-1px;width:32px; height:32px; background-size:16px auto;}
@@ -2155,7 +2155,7 @@ table.reserve-table > tbody > tr > td {padding:10px; font-size:14px; line-height
 	.header-search-wrap .search-request {display:none;}
 	.header-search-sort {background:#222;}
 	.header-search-sort > label > .txt {height:24px; font-size:12px;line-height:15px;background:#fff;}
-	.btn-mobile-login {position:absolute;top:18px;right:-20px;display:block;width:55px;height:55px; font-size:0; background:url(../images/icon/m_login-ico@2x.png) center center no-repeat; background-size:23px auto;}
+	.btn-mobile-login {position:absolute;top:18px;right:-20px;display:block;width:55px;height:55px; font-size:0; background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/m_login-ico@2x.png) center center no-repeat; background-size:23px auto;}
 	.btn-mobile-logout {position:absolute;top:18px;right:-20px;display:block;width:55px;height:55px; font-size:0; background:url(../images/icon/m_logout-ico.png) center center no-repeat; background-size:23px auto;}
 
 	/* 헤더 > 글로벌 */
