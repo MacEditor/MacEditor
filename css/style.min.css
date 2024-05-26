@@ -135,7 +135,7 @@ h3:first-child, h4:first-child, h5:first-child, h6:first-child {margin-top:1rem;
 
 .icon-star-pink-on {background-image:url(../images/icon/star-copy-3@2x.png);}
 .icon-star-pink-off {background-image:url(../images/icon/star-copy-4@2x.png);}
-.icon-search-white {width:16px; height:17px; background-image:url(../images/icon/icon_search_white.png); background-size:16px auto;}
+.icon-search-white {width:16px; height:17px; background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/icon_search_white.png); background-size:16px auto;}
 .icon-earphones {background-image:url(../images/icon/earphones-simple-line-icons@2x.png);}
 .icon-pin {background-image:url(../images/icon/location-pin-simple-line-icons@2x.png);}
 .icon-none-clock {width:48px;height:44px; background-image:url(../images/icon/icon_none_clock.png);background-size:48px auto;}
@@ -184,16 +184,17 @@ h3:first-child, h4:first-child, h5:first-child, h6:first-child {margin-top:1rem;
 .icon-main-paper {width:47px; height:44px; background-image:url(../images/icon/main-link-03-on@2x.png); background-size:100% 100%;}
 .icon-main-booktalk {width:47px; height:44px; background-image:url(../images/icon/main-link-04-on@2x.png); background-size:100% 100%;}
 .icon-main-seat {width:47px; height:44px; background-image:url(../images/icon/main-link-05-on@2x.png); background-size:100% 100%;}
-.icon-main-artguide {width:47px; height:44px; position: relative; background-image:url(../images/icon/main-link-06-on@2x.png); background-size:100% 100%;}
+/* 아이콘 최신화 */
+.icon-main-artguide {width:47px; height:44px; position: relative; background-image:url(../img/book.png); background-size:100% 100%;}
+.icon-main-riss {width:47px; height:44px; position: relative; background-image:url(../img/board.png); background-size:100% 100%;}
+.icon-main-userinformation {width:47px; height:44px; background-image:url(../img/join.png); background-size:100% 100%;}
 /*.icon-main-artguide:before {content:''; background-image:url(../images/icon/main-link-06@2x.png);}*/
 /*.icon-main-artguide:after {content:''; background-image:url(../images/icon/main-link-06-on@2x.png);}*/
 .icon-main-information {width:47px; height:44px; background-image:url(../images/icon/main-link-07@2x.png); background-size:100% 100%;}
 .icon-main-request {width:47px; height:44px; background-image:url(../images/icon/main-link-08-on@2x.png); background-size:100% 100%;}
 .icon-main-bestbook {width:47px; height:44px; background-image:url(../images/icon/main-link-09@2x.png); background-size:100% 100%;}
 .icon-main-artdb {width:47px; height:44px; background-image:url(../images/icon/main-link-10-on@2x.png); background-size:100% 100%;}
-.icon-main-userinformation {width:47px; height:44px; background-image:url(../images/icon/main-link-11-on@2x.png); background-size:100% 100%;}
 .icon-main-return {width:47px; height:44px; background-image:url(../images/icon/main-link-12@2x.png); background-size:100% 100%;}
-.icon-main-riss {width:47px; height:44px; position: relative; background-image:url(../images/icon/main-link-13-on@2x.png); background-size:100% 100%;}
 .icon-main-pubmed {width:47px; height:44px; position: relative; background-image:url(../images/icon/main-link-pubmed-on@x2.png); background-size:100% 100%;}
 .icon-main-googlescholar {width:47px; height:44px; position: relative; background-image:url(../images/icon/main-link-googlescholar-on@x2.png); background-size:100% 100%;}
 .icon-main-citation {width:47px; height:44px; position: relative; background-image:url(../images/icon/main-link-18-on@x2.png); background-size:100% 100%;}
@@ -1198,7 +1199,7 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 .sitemap-global-wrap {display:none;}
 
 /* 푸터 */
-.footer-wrap {margin-top:100px; padding:60px 0 100px 0; border-top:1px solid #222;}
+.footer-wrap {margin-top:100px; padding:60px 0; border-top:1px solid #222;}
 .footer-wrap .btn-page-top {position:absolute; top:-60px; right:0;}
 .footer-wrap.guide > .container {max-width:1090px;}
 .footer-menu {position:absolute; top:-3px; right:0;}
@@ -1233,14 +1234,14 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 .footer-sns-menu .btn-footer-sns-nav {display:block;width:24px;height:24px;position:relative;font-size:0;}
 .footer-sns-menu .btn-footer-sns-nav:before {content:'';position:absolute;top:0;left:0;display:block;width:100%;height:100%;background-repeat:no-repeat;background-position:center center; background-size:100% auto; opacity:1; transition:opacity 0.25s ease;}
 .footer-sns-menu .btn-footer-sns-nav:after {content:'';position:absolute;top:0;left:0;display:block;width:100%;height:100%;background-repeat:no-repeat;background-position:center center; background-size:100% auto; opacity:0; transition:opacity 0.25s ease;}
-.footer-sns-menu .btn-footer-sns-nav.instargram:before {background-image:url(../images/icon/footer-sns-insta@2x.png);}
-.footer-sns-menu .btn-footer-sns-nav.instargram:after {background-image:url(../images/icon/footer-sns-insta-hover@2x.png);}
-.footer-sns-menu .btn-footer-sns-nav.youtube:before {background-image:url(../images/icon/footer-sns-youtube@2x.png);}
-.footer-sns-menu .btn-footer-sns-nav.youtube:after {background-image:url(../images/icon/footer-sns-youtube-hover@2x.png);}
-.footer-sns-menu .btn-footer-sns-nav.facebook:before {background-image:url(../images/icon/footer-sns-facebook@2x.png);}
-.footer-sns-menu .btn-footer-sns-nav.facebook:after {background-image:url(../images/icon/footer-sns-facebook-hover@2x.png);}
-.footer-sns-menu .btn-footer-sns-nav.blog:before {background-image:url(../images/icon/footer-sns-blog@2x.png);}
-.footer-sns-menu .btn-footer-sns-nav.blog:after {background-image:url(../images/icon/footer-sns-blog-hover@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.instargram:before {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-insta@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.instargram:after {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-insta-hover@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.youtube:before {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-youtube@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.youtube:after {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-youtube-hover@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.facebook:before {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-facebook@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.facebook:after {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-facebook-hover@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.blog:before {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-blog@2x.png);}
+.footer-sns-menu .btn-footer-sns-nav.blog:after {background-image:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/footer-sns-blog-hover@2x.png);}
 .footer-sns-menu .btn-footer-sns-nav + .btn-footer-sns-nav {margin-left:32px;}
 @media (min-width:1024px) {
 	.footer-sns-menu .btn-footer-sns-nav:hover:before {opacity:0;}
@@ -1260,7 +1261,7 @@ table > tbody > tr.table-toggle-data > td {padding:0;}
 /* 로케이션 */
 .history-wrap {padding-top:16px; display:flex; justify-content:flex-end;}
 .history-list {display:inline-flex; align-items:center;}
-.history-list-cell:first-child > a {display:block; width:15px; height:25px; font-size:0; background:url(../images/icon/home-simple-line-icons@2x.png) center center no-repeat; background-size:15px auto;}
+.history-list-cell:first-child > a {display:block; width:15px; height:25px; font-size:0; background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/home-simple-line-icons@2x.png) center center no-repeat; background-size:15px auto;}
 .history-list-cell {position:relative; font-size:14px; line-height:25px; color:#999}
 .history-list-cell + .history-list-cell {margin-left:21px; padding-left:21px;}
 .history-list-cell + .history-list-cell:before {font-family: 'Material Icons'; content:'\e5cc'; position:absolute; top:0; left:-7px; display:block; width:14px; height:25px; font-size:14px; line-height:25px; color:#999;}
@@ -1449,14 +1450,14 @@ a.main-user-info-item > strong {margin-left:6px; font-weight:500; color:#222}
 .main-middle-banner.type-1 {background-image: linear-gradient(to right, #d0e2ff 8%, #d6e3f8 28%, #bacef2 53%, #bacef2 77%, #a0b9e7 93%);}
 .main-middle-banner.type-2 {background-image: linear-gradient(to right, #262164 8%, #45407b 30%, #343c71 53%, #2a2f4b 77%, #1d244e 93%);}
 .main-middle-banner.type-3 {background-image: linear-gradient(to right, #2C2C2C 8%, #333438 30%, #464649 53%, #333438 77%, #2C2C2C 93%);}
-.main-middle-banner.type-1 .obj-1 {position:absolute;top:0;left:3.6%;display:block;width:52px;height:36px;background:url(../images/icon/main_middle_banner_1_obj_1.png) left top no-repeat; background-size:100% 100%;}
-.main-middle-banner.type-1 .obj-2 {position:absolute;bottom:0;left:9.2%;display:block;width:224px;height:73px;background:url(../images/icon/main_middle_banner_1_obj_2.png) left top no-repeat; background-size:100% 100%;}
-.main-middle-banner.type-1 .obj-3 {position:absolute;bottom:0;right:16.9%;display:block;width:52px;height:35px;background:url(../images/icon/main_middle_banner_1_obj_3.png) left top no-repeat; background-size:100% 100%;}
-.main-middle-banner.type-1 .obj-4 {position:absolute;top:36px;right:7.3%;display:block;width:79px;height:79px;background:url(../images/icon/main_middle_banner_1_obj_4.png) left top no-repeat; background-size:100% 100%;}
+.main-middle-banner.type-1 .obj-1 {position:absolute;top:0;left:3.6%;display:block;width:52px;height:36px;background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/main_middle_banner_1_obj_1.png) left top no-repeat; background-size:100% 100%;}
+.main-middle-banner.type-1 .obj-2 {position:absolute;bottom:0;left:9.2%;display:block;width:224px;height:73px;background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/main_middle_banner_1_obj_2.png) left top no-repeat; background-size:100% 100%;}
+.main-middle-banner.type-1 .obj-3 {position:absolute;bottom:0;right:16.9%;display:block;width:52px;height:35px;background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/main_middle_banner_1_obj_3.png) left top no-repeat; background-size:100% 100%;}
+.main-middle-banner.type-1 .obj-4 {position:absolute;top:36px;right:7.3%;display:block;width:79px;height:79px;background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/main_middle_banner_1_obj_4.png) left top no-repeat; background-size:100% 100%;}
 .main-middle-banner.type-1 .obj-5 {position:absolute;bottom:0;left:50%;display:block;margin:0 0 -18px 203px;width:291px;height:192px;background:url(../images/icon/main_middle_banner_1_obj_5.png) left top no-repeat; background-size:100% 100%;}
-.main-middle-banner.type-2 .obj-1 {position:absolute;top:0;left:0;display:block;width:644px;height:230px;background:url(../images/icon/main_middle_banner_2_obj_1.png) left top no-repeat; background-size:100% 100%;}
-.main-middle-banner.type-2 .obj-2 {position:absolute;top:0;right:2.1%;display:block;width:525px;height:193px;background:url(../images/icon/main_middle_banner_2_obj_2.png) left top no-repeat; background-size:100% 100%;}
-.main-middle-banner.type-2 .obj-3 {position:absolute;bottom:0;left:50%;display:block;width:258px;height:221px; margin:0 0 -6px 227px;background:url(../images/icon/main_middle_banner_2_obj_3.png) left top no-repeat; background-size:100% 100%;}
+.main-middle-banner.type-2 .obj-1 {position:absolute;top:0;left:0;display:block;width:644px;height:230px;background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/main_middle_banner_2_obj_1.png) left top no-repeat; background-size:100% 100%;}
+.main-middle-banner.type-2 .obj-2 {position:absolute;top:0;right:2.1%;display:block;width:525px;height:193px;background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/main_middle_banner_2_obj_2.png) left top no-repeat; background-size:100% 100%;}
+.main-middle-banner.type-2 .obj-3 {position:absolute;bottom:0;left:50%;display:block;width:258px;height:221px; margin:0 0 -6px 227px;background:url(https://lib.pusan.ac.kr/wp-content/themes/pnul2022/extend/design/assets/images/icon/main_middle_banner_2_obj_3.png) left top no-repeat; background-size:100% 100%;}
 /*.main-middle-banner.type-3 .obj-1 {position:absolute;bottom:0;left:50%;display:block;width:260px;height:210px; margin:0 0 -6px 227px;background:url(../images/icon/main_middle_banner_3_obj_1.png) left top no-repeat; background-size:100% 100%;}*/
 .main-middle-banner.type-3 .obj-1 {position:absolute;top:0;left:3.6%;display:block;width:52px;height:36px;background:url(../images/icon/main_middle_banner_1_obj_1.png) left top no-repeat; background-size:100% 100%;}
 .main-middle-banner.type-3 .obj-2 {position:absolute;bottom:0;left:9.2%;display:block;width:224px;height:73px;background:url(../images/icon/main_middle_banner_1_obj_2.png) left top no-repeat; background-size:100% 100%;}

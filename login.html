@@ -61,9 +61,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                         <h1><a href="index.html" class="blog-1">이달의 책</a></h1>
                         <!-- 상단 검색 -->
                             <form id="header-search"
-                            method="get"
-                            action="https://lib.pusan.ac.kr/resource/"
-                            class="header-search-wrap">
+                              method="get"
+                              action="#"
+                              class="header-search-wrap">
                             <!-- 입력영역 -->
                             <div class="search-input">
                                 <input type="text" name="query" placeholder="" value=""/>
@@ -73,65 +73,43 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                             <!-- //입력영역 -->
                             <!-- pc 검색 소팅 -->
                             <div class="header-search-sort">
-                                <label for="headerSearchSort1"><input type="radio" name="headerSearchSort" id="headerSearchSort1" value="https://lib.pusan.ac.kr/resource/?app=solars&mod=list" checked/><span class="txt">제목</span></label>
-                                <label for="headerSearchSort2"><input type="radio" name="headerSearchSort" id="headerSearchSort2" value="https://lib.pusan.ac.kr/resource/catalog/" /><span class="txt">작가</span></label>
-                                <label for="headerSearchSort3"><input type="radio" name="headerSearchSort" id="headerSearchSort3" value="https://lib.pusan.ac.kr/resource/e-article/" /><span class="txt">장르</span></label>
-                                <label for="headerSearchSort4"><input type="radio" name="headerSearchSort" id="headerSearchSort4" value="https://lib.pusan.ac.kr/resource/e-journal/" /><span class="txt">출판사</span></label>
-                                <!-- <label for="headerSearchSort6" class="pc-block"><input type="radio" name="headerSearchSort" id="headerSearchSort6" value="https://lib.pusan.ac.kr/resource/databases/" /><span class="txt">학술DB</span></label>
-                                <label for="headerSearchSort5" class="pc-block"><input type="radio" name="headerSearchSort" id="headerSearchSort5" value="https://lib.pusan.ac.kr/resource/e-book/" /><span class="txt">전자책</span></label> -->
+                                <label for="headerSearchSort1"><input type="radio" name="headerSearchSort" id="headerSearchSort1" value="#title" checked/><span class="txt">제목</span></label>
+                                <label for="headerSearchSort2"><input type="radio" name="headerSearchSort" id="headerSearchSort2" value="#author" /><span class="txt">작가</span></label>
+                                <label for="headerSearchSort3"><input type="radio" name="headerSearchSort" id="headerSearchSort3" value="#genre" /><span class="txt">장르</span></label>
+                                <label for="headerSearchSort4"><input type="radio" name="headerSearchSort" id="headerSearchSort4" value="#company" /><span class="txt">출판사</span></label>
                             </div>
-                            <!-- //pc 검색 소팅 -->
-                            <!-- 임시 숨김 220203 -->
-    <!--                            <div class="search-request"><div class="bullet">?</div></div>-->
-                            <!-- //임시 숨김 220203 -->
                         </form>
                         <!-- //상단 검색 -->
                         <!-- pc 상단 글로벌 메뉴 -->
                         <div class="header-global-wrap">
                             <div class="header-global-list">
-                                <!-- 교외접속 -->
-                                <!--
-                                //  클래스에 on 클래스 추가시 활성화
-                                -->
-                                <!-- <div class="list-cell global-access">
-                                    <a href="https://lib.pusan.ac.kr/service/eproxy/" class="btn-global-menu-item btn-global-access">
-                                        <span class="proxy-status-label">교내접속</span>
-                                        <span class="global-access-stats on-off">OFF</span></a>
-                                </div> -->
-                                                                <div class="list-cell"><a href="https://lib.pusan.ac.kr/login/?redirect_to=https%3A%2F%2Flib.pusan.ac.kr%2F" class="btn-global-menu-item btn-global-login">로그인</a></div>
-                                                                <!-- 커뮤니티 -->
+                                <div class="list-cell"><a href="login.html" class="btn-global-menu-item btn-global-login">로그인</a></div>
+                                <!-- 커뮤니티 -->
                                 <div class="list-cell">
                                     <div class="btn-global-community">커뮤니티</div>
                                     <div class="header-modal-wrap">
                                         <div class="header-modal-inner">
                                             <div class="header-modal-body">
                                                 <div class="modal-menu-list">
-                                                    <div class="modal-menu-cell"><a href="https://lib.pusan.ac.kr/community/news/">공지 및 행사</a></div>
-                                                    <div class="modal-menu-cell"><a href="https://lib.pusan.ac.kr/community/ask-bbs/">게시판문의</a></div>
-                                                    <div class="modal-menu-cell"><a href="https://lib.pusan.ac.kr/community/faq/">자주묻는질문</a></div>
-                                                    <div class="modal-menu-cell"><a href="https://lib.pusan.ac.kr/community/ask-tel/">전화/이메일 문의</a></div>
-                                                    <div class="modal-menu-cell"><a href="https://lib.pusan.ac.kr/community/schedule/">도서관 일정</a></div>
+                                                    <div class="modal-menu-cell"><a href="#">공지사항</a></div>
+                                                    <div class="modal-menu-cell"><a href="#">게시판문의</a></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- 다른언어 메뉴 -->
-                                <!-- <div class="list-cell"><a href="https://lib.pusan.ac.kr/en/" class="btn-global-menu-item btn-global-eng">영문 바로가기</a></div> -->
                             </div>
-                            <!-- 20211128 수정 -->
                             <div class="header-global-banner display-none">
                                 <div class="swiper-container" id="header_hot_swiper">
                                     <div class="swiper-wrapper"></div>
                                 </div>
                             </div>
-                            <!-- //20211128 수정 -->
                         </div>
                         <!-- //pc 상단 글로벌 메뉴 -->
-                                                <!-- 모바일 로그인 버튼 -->
-                        <a href="https://lib.pusan.ac.kr/login/?redirect_to=https%3A%2F%2Flib.pusan.ac.kr%2F" class="btn-mobile-login">로그인</a>
+                        <!-- 모바일 로그인 버튼 -->
+                        <a href="login.html" class="btn-mobile-login">로그인</a>
                         <!-- //모바일 로그인 버튼 -->
-                                            </div>
+                    </div>
                 </div>
             </div>
             <!-- //header-contents -->
@@ -141,28 +119,29 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                     <div class="inner">
                         <div class="gnb-data">
                             <div class="gnb-data-inner">
-                                <div class="sticky-logo"><a href="https://lib.pusan.ac.kr"></a></div>
+                                <div class="sticky-logo"><a href="index.html"></a></div>
                                 <div class="sticky-title"><a href="#"></a></div>
-                                <ul id="menu-%eb%a9%94%ec%9d%b8%eb%a9%94%eb%89%b4" class="main-nav-list group"><li id="menu-item-8946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8946"><a href="https://lib.pusan.ac.kr/resource/">도서목록</a>
-    <ul class="sub-menu">
-    <li id="menu-item-9688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9688"><a href="bookList.html">전체보기</a></li>
-    </ul>
-    </li>
-    <li id="menu-item-25031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25031"><a href="https://lib.pusan.ac.kr/collection/">베스트 셀러</a>
-    <ul class="sub-menu">
-    <li id="menu-item-18782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18782"><a href="https://lib.pusan.ac.kr/collection/popular/">인기도서</a></li>
-    <li id="menu-item-18781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18781"><a href="https://lib.pusan.ac.kr/collection/new-arrival/">신착도서</a></li>
-    </ul>
-    </li>
-    <li id="menu-item-6811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6811"><a href="https://lib.pusan.ac.kr/research/">커뮤니티</a>
-    <ul class="sub-menu">
-    <li id="menu-item-20043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20043"><a href="https://lib.pusan.ac.kr/research/research-contact/">공지사항</a></li>
-    <li id="menu-item-25133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25133"><a href="https://lib.pusan.ac.kr/research/reference/">일반공지</a></li>
-    <li id="menu-item-24729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24729"><a href="https://lib.pusan.ac.kr/research/sam-research/">소통마당</a></li>
-    </ul>
-    </li>
-    </ul>                            </div>
-                        </div>
+                                <ul id="menu-%eb%a9%94%ec%9d%b8%eb%a9%94%eb%89%b4" class="main-nav-list group"><li id="menu-item-8946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8946"><a href="bookList.html">도서목록</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-9688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9688"><a href="bookList.html">전체보기</a></li>
+                                </ul>
+                                </li>
+                                <li id="menu-item-25031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25031"><a href="bookList.html">베스트 셀러</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-18782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18782"><a href="bookList.html">인기도서</a></li>
+                                    <li id="menu-item-18781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18781"><a href="bookList.html">신착도서</a></li>
+                                </ul>
+                                </li>
+                                <li id="menu-item-6811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6811"><a href="#">커뮤니티</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-20043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20043"><a href="#">공지사항</a></li>
+                                    <li id="menu-item-25133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25133"><a href="#">일반공지</a></li>
+                                    <li id="menu-item-24729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24729"><a href="#">소통마당</a></li>
+                                </ul>
+                                </li>
+                                </ul>                           
+                            </div>
+                            </div>
                         <button type="button" class="btn-all-menu btn-all-menu-toggle">전체메뉴 열기</button>
                     </div>
                 </div>
@@ -231,7 +210,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     <div class="container">
 
         
-            <div class='history-wrap'><div class='history-list'><div class='history-list-cell'><a href='https://lib.pusan.ac.kr/'>Home</a></div><div class='history-list-cell'><a href='https://lib.pusan.ac.kr/login/?redirect_to=https%3A%2F%2Flib.pusan.ac.kr%2F'>로그인</a></div></div></div>
+            <div class='history-wrap'><div class='history-list'><div class='history-list-cell'><a href='index.html'>Home</a></div><div class='history-list-cell'><a href='https://lib.pusan.ac.kr/login/?redirect_to=https%3A%2F%2Flib.pusan.ac.kr%2F'>로그인</a></div></div></div>
             <div class="page-title-group">
                 <h2 class="page-title">로그인</h2>            </div>
 
@@ -327,12 +306,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                         <button type="button" class="btn-footer-menu-nav">Need Help?<span class="material-icons">arrow_drop_up</span></button>
                         <div class="footer-menu-wrap">
                             <ul class="footer-menu-list">
-                                <li class="footer-menu-list-cell"><a href="http://939.co.kr/pulip" target="_blank">원격지원</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/community/faq/">자주묻는질문</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/community/ask-bbs/">게시판문의</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/community/ask-tel">전화/이메일 문의</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/community/news">공지 및 행사</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/community/schedule/">도서관 일정</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">공지사항</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">게시판문의</a></li>
                             </ul>
                         </div>
                     </div>
@@ -340,33 +315,33 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                         <button type="button" class="btn-footer-menu-nav">주요 정보기관 바로가기<span class="material-icons">arrow_drop_up</span></button>
                         <div class="footer-menu-wrap">
                             <ul class="footer-menu-list">
-                                <li class="footer-menu-list-cell"><a href="https://eproxy.pusan.ac.kr/link.n2s?url=https://www.riss.kr/OrganLogin.do" target="_blank">RISS(한국교육학술정보원)</a></li>
-	                                                                    <li class="footer-menu-list-cell"><a href="http://dlibrary.go.kr" target="_bl	ank">국가전자도서관</a></li>
-                                        <li class="footer-menu-list-cell"><a href="https://scienceon.kisti.re.kr/" target="_blank">ScienceON</a></li>
-                                        <li class="footer-menu-list-cell"><a href="http://nl.go.kr" target="_blank">국립중앙도서관</a></li>
-                                        <li class="footer-menu-list-cell"><a href="http://www.nanet.go.kr" target="_blank">국회도서관</a></li>
-			                                                        </ul>
+                                <li class="footer-menu-list-cell"><a href="#">RISS(한국교육학술정보원)</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">국가전자도서관</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">ScienceON</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">국립중앙도서관</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">국회도서관</a></li>			                                                        
+                            </ul>
                         </div>
                     </div>
                     <div class="footer-menu-item">
                         <button type="button" class="btn-footer-menu-nav">Family Sites<span class="material-icons">arrow_drop_up</span></button>
                         <div class="footer-menu-wrap">
                             <ul class="footer-menu-list">
-	                                                                    <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/lawlib/" target="_blank">법학도서관</a></li>
-                                        <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/medlib/" target="_blank">의생명과학도서관</a></li>
-                                        <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/nanolib/" target="_blank">나노생명과학도서관</a></li>
-			                                                            <li class="footer-menu-list-cell"><a href="https://onestop.pusan.ac.kr/" target="_blank">학생지원시스템</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://dcollection.pusan.ac.kr/" target="_blank">디콜렉션(dCollection)</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/donation" target="_blank">기증/기부 사이트</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://fric.pusan.ac.kr/" target="_blank">외국학술지지원센터(FRIC)</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">법학도서관</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">의생명과학도서관</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">나노생명과학도서관</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">학생지원시스템</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">디콜렉션(dCollection)</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">기증/기부 사이트</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">외국학술지지원센터(FRIC)</a></li>
                             </ul>
                             <ul class="footer-menu-list">
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/ssfc/" target="_blank">과학SF창작플랫폼</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://www.pusan.ac.kr/" target="_blank">부산대학교</a></li>
-                                <li class="footer-menu-list-cell"><a href="http://archives.pusan.ac.kr/" target="_blank">부산대학교 기록관</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://lib.pusan.ac.kr/booktalk" target="_blank">북토크</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://scholar.pusan.ac.kr/" target="_blank">PNU Scholar</a></li>
-                                <li class="footer-menu-list-cell"><a href="https://linktr.ee/pnudojawi" target="_blank">도서관자치위원회</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">과학SF창작플랫폼</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">부산대학교</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">부산대학교 기록관</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">북토크</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">PNU Scholar</a></li>
+                                <li class="footer-menu-list-cell"><a href="#">도서관자치위원회</a></li>
                             </ul>
                         </div>
                     </div>
@@ -378,15 +353,15 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 <div class="footer-copy">© 2024 Book fo the Months Acroncampus. All Rights Reserved.</div>
 
             <div class="footer-global-menu">
-                <div class="menu-cell"><a href="https://www.pusan.ac.kr/kor/CMS/Board/Board.do?mCode=MN186" class="point">개인정보처리방침</a></div>
+                <div class="menu-cell"><a href="#" class="point">개인정보처리방침</a></div>
                 <div class="menu-cell"><a href="#" class="">이메일무단수집거부</a></div>
-                <div class="menu-cell"><a href="https://lib.pusan.ac.kr/collection/newsletter/" class="">도서관 새소식</a></div>
-	                        </div>
+                <div class="menu-cell"><a href="#" class="">도서관 새소식</a></div>
+            </div>
             <div class="footer-sns-menu">
-	                                <a href="https://www.instagram.com/pnu.library/" target="_blank" class="btn-footer-sns-nav instargram">인스타그램 바로가기</a>
-                                <a href="https://www.youtube.com/channel/UCPvhu-hAUTv4nYau747TgBA" target="_blank" class="btn-footer-sns-nav youtube">유투브 바로가기</a>
-                <a href="https://www.facebook.com/pnulib/" target="_blank" class="btn-footer-sns-nav facebook">페이스북 바로가기</a>
-                <a href="https://lib.pusan.ac.kr/booktalk/" target="_blank" class="btn-footer-sns-nav blog">북토크 바로가기</a>
+                <a href="#" class="btn-footer-sns-nav instargram">인스타그램 바로가기</a>
+                <a href="#" class="btn-footer-sns-nav youtube">유투브 바로가기</a>
+                <a href="#" class="btn-footer-sns-nav facebook">페이스북 바로가기</a>
+                <a href="#" class="btn-footer-sns-nav blog">북토크 바로가기</a>
             </div>
         </div>
     </div>

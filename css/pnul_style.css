@@ -52,7 +52,7 @@ h5.dot:before {content:'';position:absolute;top:-4px;left:-10px;display:block;wi
 .main-middle-banner .curation_guide_2022 {width: 220px;height: 213px;background: url(assets/images/banner/curation_guide2022.png) left top no-repeat;}
 .main-middle-banner .outer-space {width: 220px;height: 213px;background: url(assets/images/banner/outerspace3.png) left top no-repeat;}
 .main-middle-banner .book-curation {width: 220px;height: 200px;background: url(assets/images/banner/book-curation-2022.png) left top no-repeat;}
-.main-middle-banner .square {width: 200px;height: 200px;background: url(assets/images/banner/square.png) left top no-repeat;}
+.main-middle-banner .square {width: 200px;height: 200px;background: url(../img/square.png) left top no-repeat;}
 @media (max-width: 768px){
     .main-middle-banner .image {left:auto; right:17px;margin:0 0 -6px 0;}
     .main-middle-banner .saedo-new {width:143px;height:122px;}
