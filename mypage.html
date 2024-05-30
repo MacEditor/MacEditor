@@ -205,20 +205,24 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     <div class="container">
 
         
-            <div class='history-wrap'><div class='history-list'><div class='history-list-cell'><a href='https://lib.pusan.ac.kr/'>Home</a></div><div class='history-list-cell'><a href='https://lib.pusan.ac.kr/community/'>커뮤니티</a></div><div class='history-list-cell'><a href='https://lib.pusan.ac.kr/community/news/'>공지 &amp; 행사</a></div></div></div>
+            <div class='history-wrap'><div class='history-list'><div class='history-list-cell'><a href='https://lib.pusan.ac.kr/'>Home</a></div><div class='history-list-cell'><a href='mypage.html'>마이 페이지</a></div></div></div>
             <div class="page-title-group">
-                <h2 class="page-title">공지 &amp; 행사</h2>            </div>
-
+                <h2 class="page-title">마이 페이지</h2>            
+            </div>
         
-                        <div class="row row mb-px-40 m-mb-px-24">
-                    <div class="page-tab-list blue">
-                        <div id="menu-%ec%bb%a4%eb%ae%a4%eb%8b%88%ed%8b%b0" class="page-tab-list-inner"><div id="menu-item page-tab-list-cell-12541" class="menu-item page-tab-list-cell menu-item page-tab-list-cell-type-post_type menu-item page-tab-list-cell-object-page current-menu-item page-tab-list-cell page_item page-item-244 current_page_item menu-item page-tab-list-cell-12541"><a href="https://lib.pusan.ac.kr/community/news/" aria-current="page" class="btn-page-tab-nav active">공지 &amp; 행사</a></div>
-<div id="menu-item page-tab-list-cell-18892" class="menu-item page-tab-list-cell menu-item page-tab-list-cell-type-post_type menu-item page-tab-list-cell-object-page menu-item page-tab-list-cell-18892"><a href="https://lib.pusan.ac.kr/community/ask-bbs/" class="btn-page-tab-nav">게시판 문의</a></div>
-<div id="menu-item page-tab-list-cell-18891" class="menu-item page-tab-list-cell menu-item page-tab-list-cell-type-post_type menu-item page-tab-list-cell-object-page menu-item page-tab-list-cell-18891"><a href="https://lib.pusan.ac.kr/community/faq/" class="btn-page-tab-nav">자주묻는 질문</a></div>
-<div id="menu-item page-tab-list-cell-18893" class="menu-item page-tab-list-cell menu-item page-tab-list-cell-type-post_type menu-item page-tab-list-cell-object-page menu-item page-tab-list-cell-18893"><a href="https://lib.pusan.ac.kr/community/ask-tel/" class="btn-page-tab-nav">전화/이메일 문의</a></div>
-<div id="menu-item page-tab-list-cell-12542" class="menu-item page-tab-list-cell menu-item page-tab-list-cell-type-post_type menu-item page-tab-list-cell-object-page menu-item page-tab-list-cell-12542"><a href="https://lib.pusan.ac.kr/community/schedule/" class="btn-page-tab-nav">도서관 일정</a></div>
-</div>                    </div>
+            <div class="row row mb-px-40 m-mb-px-24">
+                <div class="page-tab-list blue">
+                    <div id="menu-%ec%bb%a4%eb%ae%a4%eb%8b%88%ed%8b%b0" class="page-tab-list-inner">
+                        <div id="menu-item page-tab-list-cell-12541" class="menu-item page-tab-list-cell menu-item page-tab-list-cell-type-post_type menu-item page-tab-list-cell-object-page current-menu-item page-tab-list-cell page_item page-item-244 current_page_item menu-item page-tab-list-cell-12541">
+                            <a href="mypage.html" class="btn-page-tab-nav active">대출 목록</a>
+                        </div>
+
+                        <div id="menu-item page-tab-list-cell-18892" class="menu-item page-tab-list-cell menu-item page-tab-list-cell-type-post_type menu-item page-tab-list-cell-object-page menu-item page-tab-list-cell-18892">
+                            <a href="mypage2.html" class="btn-page-tab-nav">즐겨 찾기</a>
+                        </div>
+                    </div>                    
                 </div>
+            </div>
             
         <div class="mps "><div class="mps-list board-cat"><div class="contents-group">
     <div class="center-group">
@@ -228,25 +232,16 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                     <div class="tab-scroller-group">
                         <div class="category-wrap tab-list-inner flex-inline">
                             <div class="tab-list-cell">
-                                <a href="?" class="btn btn-round btn-tab btn-blue">전체</a>
-                            </div>
-                            <div class="tab-list-cell">
-                                <a href="?cat=notice" class="btn btn-round btn-tab btn-tab-blue">일반 공지</a>
-                            </div>
-                            <div class="tab-list-cell">
-                                <a href="?cat=db-notice" class="btn btn-round btn-tab btn-tab-blue">학술DB 공지</a>
-                            </div>
-                            <div class="tab-list-cell">
-                                <a href="?cat=uncategorized" class="btn btn-round btn-tab btn-tab-blue">미분류</a>
+                                <a href="#" class="btn btn-round btn-tab btn-green">회원정보 수정</a>
                             </div>
                         </div>
                     </div>
                     <div class="flex ml-auto board-input-group">
                         <select name="mps_sfield" id="mps_sfield" class="form-control form-dropdown">
                             <option value="" selected="selected">전체</option>
-                            <option value="post_title" >제목</option>
-                            <option value="post_content" >내용</option>
-                            <option value="post_author" >작성자</option>
+                            <option value="post_title">도서제목</option>
+                            <option value="post_genre">장르</option>
+                            <option value="post_content">작가</option>
                         </select>
                         <input type="text" name="ks" class="form-control" placeholder="검색어를 입력해주세요" value="">
                         <input type="hidden" name="page" value="1">
@@ -257,238 +252,44 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 </div>
             </form>
             <!-- 검색결과 있을 때 -->
-                            <div class="mt-3">
-                    <table class="notice-board">
+                <div class="mt-3">
+                    <table>
                         <thead>
                         <tr>
-                            <th class="num">No.</th>
-                            <th class="category">분류</th>
-                            <th class="subject">제목</th>
-                            <th class="writer">글쓴이</th>
-                            <th class="date">작성일</th>
-                            <th class="count">조회수</th>
+                            <th class="num">no</th>
+                            <th class="category">도서제목</th>
+                            <th class="subject">장르</th>
+                            <th class="writer">작가</th>
                         </tr>
                         </thead>
-                        <tbody>
-                        <!--                    <div class="d-flex flex-wrap mt-px-n12 mr-px-n12 mb-px-n12 ml-px-n12">-->
-                        
-                            <tr>
-                                <td class="num">1998</td>
-                                <td class="category"><span>학술DB공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45366&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[이벤트] IOP Publishing 2024 Online Campaign(5/27~6/28)</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">문민지</div></td>
-                                <td class="date">2024.05.24</td>
-                                <td class="count"> 80</td>
+                        <tbody>                        
+                            <tr>                                
+                                <td class="text-center subject"><span>01</span></td>
+                                <td class="text-center subject"><span>도서1</span></td>
+                                <td class="text-center subject">장르1</td>
+                                <td class="writer"><div class="text-ellipsis">작가1</div></td>
                             </tr>
-                        
                             <tr>
-                                <td class="num">1997</td>
-                                <td class="category"><span>학술DB공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45361&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[부산캠퍼스 이용교육] 2024학년도 6월 이용교육 안내</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">이성연</div></td>
-                                <td class="date">2024.05.23</td>
-                                <td class="count"> 62</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1996</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45356&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[새벽벌도서관] 북측 야외 시설물 보수 공사 안내</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">신동규</div></td>
-                                <td class="date">2024.05.23</td>
-                                <td class="count"> 65</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1995</td>
-                                <td class="category"><span>학술DB공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45348&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">스콜라 시스템 점검 및 서비스 일시 중단 안내(5/26)</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">문민지</div></td>
-                                <td class="date">2024.05.23</td>
-                                <td class="count"> 44</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1994</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45310&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">아이티고 IT강좌 서비스 일시 중단 안내(5/26)</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">문민지</div></td>
-                                <td class="date">2024.05.23</td>
-                                <td class="count"> 91</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1993</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45342&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[재공고][국립대육성] 부산대학교 도서관 동양인 저자식별데이터(전거DB) 정비 및 학술자료 관계정보 구축 보조인력 모집 공고</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">신보혜</div></td>
-                                <td class="date">2024.05.22</td>
-                                <td class="count"> 368</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1992</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45336&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[국립대학 육성사업] 부산대학교 도서관 저자식별데이터(전거DB) 정비 및 학술자료 관계정보 구축 보조인력 서류전형 결과 안내</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">신보혜</div></td>
-                                <td class="date">2024.05.21</td>
-                                <td class="count"> 142</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1991</td>
-                                <td class="category"><span>학술DB공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45300&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">2024 도서관 전자자료 박람회 경품 당첨자 발표(정보검색, 전자자료 활용법 공유, 설문조사)</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">문민지</div></td>
-                                <td class="date">2024.05.21</td>
-                                <td class="count"> 499</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1990</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45322&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[당첨자발표]2024년 의학 학술DB 정보검색 이벤트</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">김송아</div></td>
-                                <td class="date">2024.05.20</td>
-                                <td class="count"> 339</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1989</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45218&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[국립대육성] 저자와의 만남: 작가 서진</a>
-                                                                                    <div class="label label-new small"></div>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">허은정</div></td>
-                                <td class="date">2024.05.20</td>
-                                <td class="count"> 854</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1988</td>
-                                <td class="category"><span>학술DB공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45312&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[이벤트] Wiley Online Library &amp; Online Reference Works Quiz (5/20~5/31)</a>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">문민지</div></td>
-                                <td class="date">2024.05.18</td>
-                                <td class="count"> 238</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1987</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45208&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[BK21 대학원혁신] 2024학년도 1학기 효원인 연구력 강화 워크숍 안내</a>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">이성연</div></td>
-                                <td class="date">2024.05.17</td>
-                                <td class="count"> 488</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1986</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=44436&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[국립대육성] 2024년도 효원인과 함께 읽고 싶은 책 추천서 공모</a>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">강태규</div></td>
-                                <td class="date">2024.05.17</td>
-                                <td class="count"> 2517</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1985</td>
-                                <td class="category"><span>학술DB공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45036&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">2024 도서관 전자자료 박람회 - 총 108명에게 경품을 드립니다!</a>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">문민지</div></td>
-                                <td class="date">2024.05.14</td>
-                                <td class="count"> 4725</td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="num">1984</td>
-                                <td class="category"><span>일반공지</span></td>
-                                <td class="text-left subject">
-                                    <div class="subject-text">
-                                        <a href="https://lib.pusan.ac.kr/community/news?pid=45271&ks=&cat=" class="btn-board-link color-black text-overflow-mulityline-1">[국립대학 육성사업] 부산대학교 도서관 저자식별데이터(전거DB) 정비 및 학술자료 관계정보 구축 보조인력 모집 공고</a>
-                                                                            </div>
-                                </td>
-                                <td class="writer"><div class="text-ellipsis">신보혜</div></td>
-                                <td class="date">2024.05.14</td>
-                                <td class="count"> 168</td>
-                            </tr>
+                                <td class="text-center subject"><span>02</span></td>
+                                <td class="text-center subject"><span>도서2</span></td>
+                                <td class="text-center subject">장르2</td>
+                                <td class="writer"><div class="text-ellipsis">작가2</div></td>
+                            </tr>             
                         </tbody>
                     </table>
                 </div>
                 <div class="paging-wrap mt-px-50 m-mt-px-30">
                     <div class="pagination">
-                        <span aria-current="page" class="page-item current"><span aria-current="page" class="page-link current">1</span></span><a href="" class="page-item"><a class="page-link" href="/community/news/?paged=2">2</a></a><a href="" class="page-item"><a class="page-link" href="/community/news/?paged=3">3</a></a><a href="" class="page-item"><span class="page-link dots">&hellip;</span></a><a href="" class="page-item"><a class="page-link" href="/community/news/?paged=134">134</a></a><a href="" class="next page-item"><a class="next page-link" href="/community/news/?paged=2">다음</a></a>                    </div>
+                        <span aria-current="page" class="page-item current"><span aria-current="page" class="page-link current">1</span></span><a href="" class="page-item"><a class="page-link" href="/community/news/?paged=2">2</a></a><a href="" class="page-item"><a class="page-link" href="/community/news/?paged=3">3</a></a><a href="" class="page-item"><span class="page-link dots">&hellip;</span></a><a href="" class="page-item"><a class="page-link" href="/community/news/?paged=6">6</a></a><a href="" class="next page-item"><a class="next page-link" href="#paged=2">다음</a></a>
+                    </div>
                 </div>
         </div>
     </div>
 </div>
-</div></div>
+</div>
+</div>
 
-    </div>
+</div>
 
     
 </section>

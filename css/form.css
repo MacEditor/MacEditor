@@ -177,8 +177,8 @@ select.form-input.vlarge {height:50px; padding:0 16px; font-size:15px;}
 
 /* 커스텀 라벨 인풋 */
 .form-label-input {position:relative;}
-.form-label-input input.form-input {border:none; font-size:15px; height:48px; padding:0 10px 0 114px; border:1px solid #cfcfda; border-radius:6px; transition:border 0.25s ease;}
-.form-label-input .form-label {position:absolute;top:0;left:0;width:104px; height:48px; display:flex; align-items:center; font-size:15px; line-height:20px; color:#222; font-weight:500; padding:0 10px 0 24px; cursor:default;}
+.form-label-input input.form-input {border:none; font-size:15px; height:48px; padding:0 10px 0 130px; border:1px solid #cfcfda; border-radius:6px; transition:border 0.25s ease;}
+.form-label-input .form-label {position:absolute;top:0;left:0;width:115px; height:48px; display:flex; align-items:center; font-size:15px; line-height:20px; color:#222; font-weight:500; padding:0 10px 0 15px; cursor:default;}
 .form-label-input .form-label:after {content:''; position:absolute; top:50%; right:0;width:1px;height:20px;background:#cfcfda;margin-top:-10px;}
 .form-label-input:hover input.form-input {border-color:#4b4dff;}
 .form-single-label {font-size:14px; line-height:20px; color:#222;}
@@ -238,8 +238,8 @@ select.form-input.vlarge {height:50px; padding:0 16px; font-size:15px;}
 
 	/* 커스텀 라벨 인풋 */
 	.form-label-input {}
-	.form-label-input input.form-input {font-size:13px; height:40px; padding:0 10px 0 114px;}
-	.form-label-input .form-label {width:104px; height:40px; font-size:13px; line-height:17px; padding:0 10px 0 11px;}
+	.form-label-input input.form-input {font-size:13px; height:40px; padding:0 10px 0 130px;}
+	.form-label-input .form-label {width:115px; height:40px; font-size:13px; line-height:17px; padding:0 10px 0 20px;}
 
 	/* 싱글 검색 */
 	.form-single-search {}
